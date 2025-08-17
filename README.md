@@ -16,3 +16,8 @@ bash add-saveman.sh [[YOUR_APK_FILE]]
 ```
 
 This will start the patching process. When prompted, type `password` (literally) to unlock the signing key and sign the patched APK.
+
+## Dependencies
+
+- any linux that includes curl and keytool (tested on Ubuntu 24.04)
+- Java (tested on OpenJRE 11)
